@@ -10,3 +10,17 @@ C:\Users\NGUYENPHUC\OneDrive - Vmed Group Mail\R&D - Infomed\Integration\telemed
 C:\Users\NGUYENPHUC\OneDrive - Vmed Group Mail\R&D - Infomed\Integration\telemedicine-trial-integ-ecg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.pdb
 C:\Users\NGUYENPHUC\OneDrive - Vmed Group Mail\R&D - Infomed\Integration\telemedicine-trial-integ-ecg\EcgIntegVer1\EcgIntegVer1\bin\Debug\ECGConversion.dll
 C:\Users\NGUYENPHUC\OneDrive - Vmed Group Mail\R&D - Infomed\Integration\telemedicine-trial-integ-ecg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.CopyComplete
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\EcgIntegVer1.exe.config
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\EcgIntegVer1.exe
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\EcgIntegVer1.pdb
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\ECGConversion.dll
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\EcgViewer.dll
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\EcgViewer.pdb
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csprojAssemblyReference.cache
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.ECGInteg.resources
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.Properties.Resources.resources
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.GenerateResource.cache
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.CoreCompileInputs.cache
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.CopyComplete
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.exe
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.pdb

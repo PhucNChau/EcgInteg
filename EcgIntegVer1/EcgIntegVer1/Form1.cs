@@ -29,26 +29,36 @@ namespace EcgIntegVer1
         private void callEcgButton_Click(object sender, EventArgs e)
         {
             UnknownECGReader _ECGReader = null;
-            IECGFormat _CurrentECG = null;
-            IECGFormat currentECG;
-            Signals _CurrentSignal = null;
+            EcgViewer.EcgViewer ecg = new EcgViewer.EcgViewer();
+            //ecg.CurrentEcg;
+            //IECGFormat _CurrentECG = null;
+            //IECGFormat currentECG;
+            //Signals _CurrentSignal = null;
 
             string filePath = "C:/Users/NGUYENPHUC/OneDrive - Vmed Group Mail/R&D - Infomed/" +
                 "Integration/telemedicine-trial-integ-ecg/EcgIntegVer1/Example.scp"; //Directory.GetCurrentDirectory();
             if (_ECGReader == null)
                 _ECGReader = new UnknownECGReader();
             IECGFormat ecgFormat = _ECGReader.Read(filePath);
+            bool success = false;
 
             if (ecgFormat != null)
             {
-                
+                ecg.CurrentEcg = ecgFormat;
+                if (ecg.CurrentEcg != null)
+                    success = true;
             }
             else
             {
-
+                ecg.CurrentEcg = null;
             }
 
-            MessageBox.Show(ecgFormat.GetType().ToString());
+            //ecg.CurrentEcg.
+            //temp.setSignals();
+            var temp = ecg.TelCurrentSignal;
+            //temp.NrLeads.
+
+            MessageBox.Show(success.ToString());
         }
     }
 }

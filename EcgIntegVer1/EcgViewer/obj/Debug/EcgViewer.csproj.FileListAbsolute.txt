@@ -1,0 +1,8 @@
+D:\EcgInteg\EcgIntegVer1\EcgViewer\bin\Debug\EcgViewer.dll
+D:\EcgInteg\EcgIntegVer1\EcgViewer\bin\Debug\EcgViewer.pdb
+D:\EcgInteg\EcgIntegVer1\EcgViewer\bin\Debug\ECGConversion.dll
+D:\EcgInteg\EcgIntegVer1\EcgViewer\obj\Debug\EcgViewer.csprojAssemblyReference.cache
+D:\EcgInteg\EcgIntegVer1\EcgViewer\obj\Debug\EcgViewer.csproj.CoreCompileInputs.cache
+D:\EcgInteg\EcgIntegVer1\EcgViewer\obj\Debug\EcgViewer.csproj.CopyComplete
+D:\EcgInteg\EcgIntegVer1\EcgViewer\obj\Debug\EcgViewer.dll
+D:\EcgInteg\EcgIntegVer1\EcgViewer\obj\Debug\EcgViewer.pdb
