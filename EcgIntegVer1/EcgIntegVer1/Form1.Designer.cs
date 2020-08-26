@@ -30,6 +30,8 @@
         {
             this.closeButton = new System.Windows.Forms.Button();
             this.callEcgButton = new System.Windows.Forms.Button();
+            this.tryOpenFile = new System.Windows.Forms.Button();
+            this.createFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // closeButton
@@ -45,13 +47,33 @@
             // 
             // callEcgButton
             // 
-            this.callEcgButton.Location = new System.Drawing.Point(184, 146);
+            this.callEcgButton.Location = new System.Drawing.Point(39, 50);
             this.callEcgButton.Name = "callEcgButton";
-            this.callEcgButton.Size = new System.Drawing.Size(75, 23);
+            this.callEcgButton.Size = new System.Drawing.Size(91, 25);
             this.callEcgButton.TabIndex = 2;
             this.callEcgButton.Text = "CallEcgLib";
             this.callEcgButton.UseVisualStyleBackColor = true;
             this.callEcgButton.Click += new System.EventHandler(this.callEcgButton_Click);
+            // 
+            // tryOpenFile
+            // 
+            this.tryOpenFile.Location = new System.Drawing.Point(39, 21);
+            this.tryOpenFile.Name = "tryOpenFile";
+            this.tryOpenFile.Size = new System.Drawing.Size(91, 25);
+            this.tryOpenFile.TabIndex = 3;
+            this.tryOpenFile.Text = "Try Open File";
+            this.tryOpenFile.UseVisualStyleBackColor = true;
+            this.tryOpenFile.Click += new System.EventHandler(this.tryOpenFile_Click);
+            // 
+            // createFile
+            // 
+            this.createFile.Location = new System.Drawing.Point(39, 96);
+            this.createFile.Name = "createFile";
+            this.createFile.Size = new System.Drawing.Size(91, 25);
+            this.createFile.TabIndex = 4;
+            this.createFile.Text = "Create File";
+            this.createFile.UseVisualStyleBackColor = true;
+            this.createFile.Click += new System.EventHandler(this.createFile_Click);
             // 
             // ECGInteg
             // 
@@ -59,6 +81,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.closeButton;
             this.ClientSize = new System.Drawing.Size(443, 324);
+            this.Controls.Add(this.createFile);
+            this.Controls.Add(this.tryOpenFile);
             this.Controls.Add(this.callEcgButton);
             this.Controls.Add(this.closeButton);
             this.Name = "ECGInteg";
@@ -71,6 +95,8 @@
 
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Button callEcgButton;
+        private System.Windows.Forms.Button tryOpenFile;
+        private System.Windows.Forms.Button createFile;
     }
 }
 

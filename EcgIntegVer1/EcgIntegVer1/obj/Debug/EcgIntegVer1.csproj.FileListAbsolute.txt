@@ -24,3 +24,7 @@ D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.CoreCompileI
 D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.csproj.CopyComplete
 D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.exe
 D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\obj\Debug\EcgIntegVer1.pdb
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\RestSharp.dll
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\RestSharp.xml
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\Newtonsoft.Json.dll
+D:\EcgInteg\EcgIntegVer1\EcgIntegVer1\bin\Debug\Newtonsoft.Json.xml

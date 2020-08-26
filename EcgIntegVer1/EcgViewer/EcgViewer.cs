@@ -35,6 +35,7 @@ namespace EcgViewer
 
                     if ((TelCurrentEcg != null) && (TelCurrentEcg != value))
                         TelCurrentEcg.Dispose();
+					// new value added
                     if (value == null)
                     {
                         if (TelCurrentEcg != null)
@@ -45,6 +46,7 @@ namespace EcgViewer
                         //ECGTimeScrollbar.Visible = false;
                         //ECGTimeScrollbar.Enabled = false;
                     }
+					// 
 					else
 					{
 						//ECGTimeScrollbar.Visible = true;
@@ -103,7 +105,7 @@ namespace EcgViewer
 							}
 						}
 
-						ECGDraw.ECGDrawType dt = ECGDraw.PossibleDrawTypes(TelCurrentSignal);
+						//ECGDraw.ECGDrawType dt = ECGDraw.PossibleDrawTypes(TelCurrentSignal);
 
 						//menuLeadFormatRegular.Enabled = (dt & ECGDraw.ECGDrawType.Regular) != 0;
 						//menuLeadFormatThreeXFour.Enabled = (dt & ECGDraw.ECGDrawType.ThreeXFour) != 0;
