@@ -16,6 +16,7 @@ using System.Security.AccessControl;
 using RestSharp;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Drawing.Imaging;
 
 namespace EcgIntegVer1
 {
@@ -242,8 +243,9 @@ namespace EcgIntegVer1
                 }
                 else
                 {
-                    string imageFile = "D:\\EcgInteg\\EcgIntegVer1\\test2.bmp";
-                    ecgBitmap.Save(imageFile);
+                    string imageFile = "D:\\EcgInteg\\EcgIntegVer1\\test2.png";
+                    
+                    ecgBitmap.Save(imageFile, ImageFormat.Png);
                     //ecgBitmap.Dispose();
                     MessageBox.Show("OK!");
                 }
